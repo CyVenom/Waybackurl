@@ -58,6 +58,13 @@ you@machine:~$ python3 waybackurls.py github.com
 # Host + subdomains
 you@machine:~$ python3 waybackurls.py github.com --subs
 ```
+## Notes
+```bash
+  - Big domains (like Google, Amazon) might cause longer response times or timeout.
+  - If you encounter frequent timeouts, consider:
+      - Increasing the timeout setting inside the script (timeout parameter).
+  - Always handle your collected URLs responsibly and ethically.
+```
 
 ## License
 
